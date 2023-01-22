@@ -1,0 +1,97 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+.container{
+	width:85%;
+	margin:auto;
+			border:1px solid white;
+}
+.page{
+	width:80%;
+	margin:auto;
+	padding:5rem;
+	
+	background-color:black;
+	}
+	.cl{
+		/* border:1px solid white; */
+		/* padding-bottom:5rem; */
+		
+	}
+.da{
+	
+	/* margin-top:3rem; */
+	/* border:1px solid white; */
+	padding-top:1rem;
+	padding-bottom:1rem;
+	color:white;
+	width:85%;
+	margin:auto;
+	display:flex;
+	padding:1rem;
+		justify-content:space-between;
+	}
+.dat{
+	color:white;
+	display:flex;
+	width:85%;
+	margin:auto;
+	border:1px solid red;
+	padding:1rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	justify-content:space-between;
+}
+.dt{
+		margin-top:2rem;
+		/* border:1px solid white; */
+		padding-bottom:5rem;
+		
+	}
+.mi{
+	padding-left:3rem;
+	margin-top:-50px;
+	display:flex;
+	
+}
+.am{
+	
+	display:flex;
+	justify-content:space-arount;
+	
+}
+.am-radius{
+	
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	border:1px solid white;
+	background-color:red;
+}
+.ham{
+	color:white;
+	margin-left:10px;
+}
+.page1{
+	display:flex;
+	padding-left:1rem;
+	margin-top:10px;
+}
+.week{
+	display:flex;
+}
+.sun{
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	border:1px solid white;
+	background-color:red;
+	margin-left:10px;
+}
+.mon h3{
+	color:white;
+	margin-left:10px;
+}

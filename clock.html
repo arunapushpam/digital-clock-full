@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+	<style>
+	</style>
+	<body>
+		<section class="page">
+			<div class="container">
+				<div class="cl">
+					<div class="da">
+						<h3>DATE</h3>
+						<h3>MONTH</h3>
+						<h3>YEAR</h3>
+					</div>
+					<div class="dat">
+						<h3>20</h3>
+						<h3>20</h3>
+						<h3>Y</h3>
+					</div>
+					
+				</div>
+				<div class="dt">
+					<div class="da">
+						<h3>HOURS</h3>
+						<h3>MINUTES</h3>
+						<h3>SECONDS</h3>
+					</div>
+					<div class="dat">
+						<h3>20</h3>
+						<h3>20</h3>
+						<h3>Y</h3>
+					</div>
+					
+				</div>
+				<div class="mi">
+					<div class="am">
+						<div class="am-radius">
+						</div>
+						<div class="ham">
+							<h4>Am</h4>
+						</div>
+					</div>
+					<div class="am">
+						<div class="am-radius"style="margin-left:20px;">
+						</div>
+						<div class="ham">
+							<h4>Pm</h4>
+						</div>
+					</div>
+				</div>
+				<div class="page1">
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Sun</h3>
+						</div>
+					</div>
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Mon</h3>
+						</div>
+					</div>
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Thus</h3>
+						</div>
+					</div>
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Wen</h3>
+						</div>
+					</div>
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Ths</h3>
+						</div>
+					</div>
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Fri</h3>
+						</div>
+					</div>
+					<div class="week">
+						<div class="sun">
+						</div>
+						<div class="mon">
+							<h3>Sater</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		<section>
+		<script>
+			function time(){
+				var date=new Date();
+				var hover=date.getHours();
+				var minute=date.getMinutes();
+				var second=date.getSeconds();
+				var session="Am";
+			}	
+			if(hover==0){
+				hover==12;
+			}
+			if(hover>=12){
+				hover=hoveer-12;
+				session="Pm"
+			}
+		</script>
+	</body>
+</html>
