@@ -19,9 +19,9 @@
 						<h3>YEAR</h3>
 					</div>
 					<div class="dat">
-						<h3>20</h3>
-						<h3>20</h3>
-						<h3>Y</h3>
+						<h3 id="date"></h3>
+						<h3 id="month"></h3>
+						<h3 id="year"></h3>
 					</div>
 					
 				</div>
@@ -32,9 +32,9 @@
 						<h3>SECONDS</h3>
 					</div>
 					<div class="dat">
-						<h3>20</h3>
-						<h3>20</h3>
-						<h3>Y</h3>
+						<h3 id="hour"></h3>
+						<h3 id="minute"></h3>
+						<h3 id="second"></h3>
 					</div>
 					
 				</div>
@@ -108,20 +108,37 @@
 			</div>
 		<section>
 		<script>
-			function time(){
-				var date=new Date();
-				var hover=date.getHours();
-				var minute=date.getMinutes();
-				var second=date.getSeconds();
-				var session="Am";
-			}	
-			if(hover==0){
-				hover==12;
-			}
-			if(hover>=12){
-				hover=hoveer-12;
-				session="Pm"
-			}
+			const date=new Date();
+			var date1=date.getDate();
+			document.getElementById=("date").innerHTML=date1;
+			var Month=date.getMonth();
+			document.getElementById("month").innerHTML=Month;
+			Year=date.getFullYear();
+			document.getElementById("year").innerHTML=Year;
+			Hour=date.getHours();
+			document.getElementById("hour").innerHTML=Hour;
+			minute=date.getMinutes();
+			document.getElementById("minute").innerHTML=minute;
+			const sec=new Date();
+			Second=sec.getSeconds();
+			console.log(sec);
+			document.getElementById("Second").innerHTML=Second;
+			
+			<!-- const date=new Date() -->
+		<!-- date1=date.getDate(); -->
+		<!-- document.getElementById("date").innerHTML=date1 -->
+		<!-- Month=date.getMonth(); -->
+		<!-- document.getElementById("Month").innerHTML=Month -->
+		<!-- Year=date.getFullYear(); -->
+		<!-- document.getElementById("Year").innerHTML=Year -->
+		<!-- Hours=date.getHours(); -->
+		<!-- document.getElementById("hours").innerHTML=Hours -->
+		<!-- Minute=date.getMinutes(); -->
+		<!-- document.getElementById("minute").innerHTML=Minute -->
+		<!-- const time=new Date() -->
+		<!-- Second=time.getSeconds(); -->
+		<!-- console.log(time) -->
+		<!-- document.getElementById("second").innerHTML=Second -->
 		</script>
 	</body>
 </html>
